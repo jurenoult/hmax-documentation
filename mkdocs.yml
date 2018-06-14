@@ -4,8 +4,8 @@ pages:
   - 'How to run it': installation.md
   - 'Use it':
     - 'Get started': use-it/get-started.md
-  - 'Learn the concepts behind'
-    - ''
+  - 'Learn the concepts behind':
+    - 'From the begining': learn-the-concepts-behind/from-the-begining.md
 theme:
   name: readthedocs
 markdown_extensions:
