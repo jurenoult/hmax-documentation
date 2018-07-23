@@ -13,7 +13,7 @@ Plus, in order to run HMAX, you must have theses Toolboxes:
 | Statistics and Machine Learning Toolbox (classification) |
 
 Then download the code through git: 
-```
+```bash
 git clone https://github.com/bguyl/HMAX.git
 ```
 
