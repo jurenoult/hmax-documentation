@@ -2,32 +2,32 @@
     "docs": [
         {
             "location": "/",
-            "text": "HMAX documentation",
+            "text": "HMAX documentation\n\n\nWelcome to the HMAX documentation.",
             "title": "Home"
         },
         {
             "location": "/#hmax-documentation",
-            "text": "",
+            "text": "Welcome to the HMAX documentation.",
             "title": "HMAX documentation"
         },
         {
             "location": "/installation/",
-            "text": "Installation",
+            "text": "Installation\n\n\nHMAX is written in \nMatlab\n. Matlab is a proprietary software so you must have a Matlab licence.\n\n\nPlus, in order to run HMAX, you must have theses Toolboxes:\n\n\n\n\n\n\n\n\nRequirement\n\n\n\n\n\n\n\n\n\n\nMatlab >2017\n\n\n\n\n\n\nOptimization toolbox\n\n\n\n\n\n\nParallel Computing Toolbox (optionnal)\n\n\n\n\n\n\nGlobal Optimization Toolbox (sparse coding only)\n\n\n\n\n\n\nStatistics and Machine Learning Toolbox (classification)\n\n\n\n\n\n\n\n\nThen download the code through git: \n\n\ngit clone https://github.com/bguyl/HMAX.git\n\n\n\n\nOr download it directly \nhere",
             "title": "Installation"
         },
         {
             "location": "/installation/#installation",
-            "text": "",
+            "text": "HMAX is written in  Matlab . Matlab is a proprietary software so you must have a Matlab licence.  Plus, in order to run HMAX, you must have theses Toolboxes:     Requirement      Matlab >2017    Optimization toolbox    Parallel Computing Toolbox (optionnal)    Global Optimization Toolbox (sparse coding only)    Statistics and Machine Learning Toolbox (classification)     Then download the code through git:   git clone https://github.com/bguyl/HMAX.git  Or download it directly  here",
             "title": "Installation"
         },
         {
             "location": "/get-started/",
-            "text": "Get started",
+            "text": "Get started\n\n\nOpen the project with Matlab.\n\n\nFirst, you need to train the model\n\n\nhmax('../dataset/training/', 'Train', true)\n\n\n\n\nThen run it on your dataset\n\n\nhmax('../dataset/test/')\n\n\n\n\nThis will read recursively the \n../dataset/test/\n folder architecture and create a similar one in the \n./result\n folder.\n\nEach images will give a Matlab binary file containing the HMAX encoding.\n\n\nIf your folders name corresponding to the class name of the images, then you can run the following command:\n\n\nT = classifier.loadC2s('./results/')\n\n\n\n\nWhere \nT\n is a table containing the HMAX encoding with the corresponding encoding.",
             "title": "Get started"
         },
         {
             "location": "/get-started/#get-started",
-            "text": "",
+            "text": "Open the project with Matlab.  First, you need to train the model  hmax('../dataset/training/', 'Train', true)  Then run it on your dataset  hmax('../dataset/test/')  This will read recursively the  ../dataset/test/  folder architecture and create a similar one in the  ./result  folder. \nEach images will give a Matlab binary file containing the HMAX encoding.  If your folders name corresponding to the class name of the images, then you can run the following command:  T = classifier.loadC2s('./results/')  Where  T  is a table containing the HMAX encoding with the corresponding encoding.",
             "title": "Get started"
         }
     ]

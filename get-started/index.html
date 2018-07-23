@@ -101,6 +101,22 @@
             <div class="section">
               
                 <h1 id="get-started">Get started</h1>
+<p>Open the project with Matlab.</p>
+<p>First, you need to train the model</p>
+<pre><code class="matlab">hmax('../dataset/training/', 'Train', true)
+</code></pre>
+
+<p>Then run it on your dataset</p>
+<pre><code class="matlab">hmax('../dataset/test/')
+</code></pre>
+
+<p>This will read recursively the <code>../dataset/test/</code> folder architecture and create a similar one in the <code>./result</code> folder.<br />
+Each images will give a Matlab binary file containing the HMAX encoding.</p>
+<p>If your folders name corresponding to the class name of the images, then you can run the following command:</p>
+<pre><code class="matlab">T = classifier.loadC2s('./results/')
+</code></pre>
+
+<p>Where <code>T</code> is a table containing the HMAX encoding with the corresponding encoding.</p>
               
             </div>
           </div>
