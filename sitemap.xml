@@ -2,22 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/installation/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <lastmod>2018-07-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>/use-it/get-started/</loc>
-     <lastmod>2018-06-14</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/learn-the-concepts-behind/from-the-begining/</loc>
-     <lastmod>2018-06-14</lastmod>
+     <loc>/get-started/</loc>
+     <lastmod>2018-07-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
